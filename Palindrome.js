@@ -1,10 +1,10 @@
 function palindrome(word)
 {
-    revword=word.split("")
-    revword=revword.reverse()
-    revword=revword.join("")
+    revord=word.split("")
+    reverseWord=reverseWord.reverse()
+    reverseWord=reverseWord.join("")
 
-    if(word.toLowerCase().replace(/\s/g,"") === revword.toLowerCase().replace(/\s/g,""))
+    if(word.toLowerCase().replace(/\s/g,"") === reverseWord.toLowerCase().replace(/\s/g,""))
     {
         console.log("It is a Palindrome.")
     }
