@@ -1,6 +1,6 @@
 function palindrome(word)
 {
-    revord=word.split("")
+    reverseWord=word.split("")
     reverseWord=reverseWord.reverse()
     reverseWord=reverseWord.join("")
 
